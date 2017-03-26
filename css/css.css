@@ -1,15 +1,15 @@
 @font-face {
 	font-family: 'karavan';
-	src:url('../yinonb.github.io/fonts/karavan.ttf');
+	src:url('../fonts/karavan.ttf');
 }
 @font-face {
 	font-family: 'barlev';
-	src:url('../yinonb.github.io/fonts/barlev.ttf');
+	src:url('../fonts/barlev.ttf');
 }
 
 @font-face {
 	font-family: 'almoni';
-	src:url('../yinonb.github.io/fonts/almoni.ttf');
+	src:url('../fonts/almoni.ttf');
 }
 body{
 	    direction: rtl;
