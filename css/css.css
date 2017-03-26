@@ -1,6 +1,6 @@
 @font-face {
 	font-family: 'karavan';
-	src:url('../fonts/karavan.ttf');
+	src:url('karavan.ttf');
 }
 @font-face {
 	font-family: 'barlev';
