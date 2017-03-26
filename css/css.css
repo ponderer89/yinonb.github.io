@@ -1,0 +1,390 @@
+@font-face {
+	font-family: 'karavan';
+	src:url('../fonts/karavan.ttf');
+}
+@font-face {
+	font-family: 'barlev';
+	src:url('../fonts/barlev.ttf');
+}
+
+@font-face {
+	font-family: 'almoni';
+	src:url('../fonts/almoni.ttf');
+}
+body{
+	    direction: rtl;
+	    font-family: almoni;
+	    color:black;
+	        overflow-x: hidden;
+	        background-color: #f8f8f8;
+
+}
+
+body::-webkit-scrollbar {
+    width: 1em;
+      background-color: black;
+
+}
+ 
+body::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px white;
+      outline: 5px solid black;
+      background-color: white;
+}
+ 
+body::-webkit-scrollbar-thumb {
+  background-color: black;
+  height:10px!important;
+
+}
+
+body::-webkit-scrollbar-track-piece {
+background-color: white;
+
+}
+
+body::-webkit-scrollbar-button {
+
+}
+h1{
+	font-size: 50px;
+	font-family: 'karavan';
+	    line-height: 0.8;
+}
+
+h2{
+	font-family: barlev;
+	    width: 330px;
+}
+
+h3{
+	FONT-SIZE:17PX;
+	font-family: almoni;
+	margin-top:40px;
+	margin-bottom: 20px;
+	font-weight:700;
+}
+
+h4{
+	margin: 10px 0px 4px 0px;
+    font-family: almoni;
+}
+.lg_img_css{
+
+
+
+		height:100vh;
+    position: relative;
+    background-size: cover;
+        background-position: center;
+    margin-right: auto;
+	transition: 0.5s;
+
+}
+
+
+.lg_img_scroll{
+	height:100px;
+	transition: 0.5s;
+}
+.lg_img_css{
+	overflow: hidden;
+
+}
+.lg_img1{
+    background-image: url(../img2/lg_img3.jpg);
+
+    z-index: -1;
+    top: 0px;
+    width: 100vw;
+    background-size: 100vw auto;
+    background-position: bottom;
+    height: 100vh;
+        position: absolute;
+}
+
+.head_content{
+	height: 100%;
+
+}
+
+.nav a{
+	font-family:barlev;
+	font-size:20px;
+	color:black;
+}
+
+
+
+
+.navbar-default{
+    background-color: transparent;
+    border-color: transparent;
+            transition: 0.5s;
+    -webkit-transition:  0.5s;
+    	      height: 72px;
+
+
+}
+.nav_scroll {
+    background-color:black;
+    border-color: #080808;
+        transition: 0.5s;
+    -webkit-transition:  0.5s;
+        height: 55px;
+            box-shadow: 0px -220px 0px 220px black;
+}
+
+
+.navbar-collapse .navbar-nav > li > a{
+    color: #000;
+            transition: 0.5s;
+    -webkit-transition:  0.5s;
+    opacity:0;
+}
+.a_scroll  .navbar-nav > li > a {
+    color: #fff;
+opacity:1;
+            transition: 0.5s;
+    -webkit-transition:  0.5s;
+
+
+
+}
+.navbar-brand{
+    font-size: 18px;
+        width: 150px;
+        fill:black;
+            background-color: white;
+    height: 100%;
+    margin-top:50px;
+    border:solid black 5px;
+
+}
+.brand_scroll{
+width:57px;
+
+    margin-top:0px;
+    
+    border:1px;
+}
+
+.top_plane{
+transform: skewx(-45deg);
+    top: -150px;
+    position: relative;
+    width: 150px;
+    left: 210px;
+    height: 150px;
+    overflow: hidden;
+    border-bottom: none;
+                transition: none!important;
+                	    transition: 0.8s;
+
+}
+.right_plane{
+    transform: skewY(-45deg);
+    top: -104px;
+    position: relative;
+    width: 200px;
+    left: 470px;
+    height: 150px;
+    overflow: hidden;
+    border-left: none;
+      transition: none!important;
+      	    transition: 0.8s;
+}
+.right_plane.brand_scroll{
+	display: none;
+	    transition: 0.8s;
+}
+
+.nav_scroll.navbar-brand.fixed-theme,
+.navbar-container.fixed-theme,
+.navbar.navbar-fixed-top.fixed-theme,
+.navbar-brand,
+.navbar-container a{
+    transition: 0.8s;
+    -webkit-transition:  0.8s;
+}
+
+
+
+
+
+
+
+.article_title{
+    margin-top: 50vh;
+    text-align: right;
+    color: WHITE;
+    background-color: black;
+    float: right;
+    display: inline-block;
+box-shadow: 0px 0px 0px 5px white;
+    padding: 20px;
+
+}
+
+.article_scroll{
+margin-top: 0px;
+    z-index: 435445;
+    position: fixed;
+    padding: 0px;
+    background-color: transparent;
+    box-shadow: none;
+    margin-right: 70px;
+                transition: 0.5s;
+    -webkit-transition:  0.5s;
+}
+
+
+.sub_title_scroll{
+	display:none;
+	            transition: 0.5s;
+    -webkit-transition:  0.5s;
+}
+
+
+.h1_scroll{
+	font-size: 20px;
+	            transition: 0.5s;
+    -webkit-transition:  0.5s;
+    font-family: 'barlev';
+}
+
+.h1_title{
+	    width: 130px;
+	        padding-bottom: 20px;
+    border-bottom: solid white 5px;
+}
+
+.h1_title_div{
+	    width: 100%;
+    padding-bottom: 0px;
+    border-bottom: none;
+
+}
+
+
+.article_body{
+
+
+
+}
+
+.article_main{
+
+background-color: white;
+
+}
+.article_toprow{
+    text-align: right;
+    font-family: barlev;
+    font-size: 20px;
+    line-height: 0.8;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.article_content{
+	font-size: 17px;
+	    background-color: white;
+	        padding-top: 150px;
+}
+
+
+.text{
+	position: relative;
+	padding-bottom: 100px;
+    border-bottom: black solid 5px;
+        width: 720px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+.articleimg{
+	width:100%;
+}
+
+
+.comments{
+width: 720px;
+    margin-right: auto;
+    margin-left: auto;
+        height: 350px;
+}
+.photo{
+    width: 100px;
+    float: left;
+    border: black solid 2px;
+    height: 100px;
+
+}
+
+.miri{
+	    filter: grayscale(1) contrast(10);
+}
+
+.comment_body{
+	    border: black solid 2px;
+    height: 100px;
+    margin-bottom: 20px;
+
+}
+
+.comment_name{
+	    border-bottom: 2px solid black;
+}
+
+.add_comment{
+
+		    background-color:#f1f1f1;
+		        border: 2px dotted black;
+}
+
+.add_image{
+			        border: 2px dotted black;
+
+}
+.add_text{
+	
+    color: #949494;
+}
+
+
+.arrow{
+	border: none;
+	filter:contrast(1) grayscale(0)!important ;
+}
+
+.new_comment{
+	height: 100px;
+    border-top: 5px solid black;
+    float: left;
+    width: 100%;
+    margin-top: 50px;
+    padding-top: 20px;
+    margin-bottom: 80px;
+}
+
+.footer{
+	background-color:black;
+	height:100px;
+
+}
+
+.footerlogo{
+    background-image: url(../img2/logofooter.png);
+    background-size: contain;
+    width: 290px;
+    float: right;
+    bottom: 0px;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    position: relative;
+    padding-top: 212px;
+    margin-top: -113px;
+}
+
