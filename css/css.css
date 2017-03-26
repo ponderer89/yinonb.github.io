@@ -92,6 +92,17 @@ h4{
 
 }
 .lg_img1{
+    background-image: url(../img/lg_img3.jpg);
+
+    z-index: -1;
+    top: 0px;
+    width: 100vw;
+    background-size: 100vw auto;
+    background-position: bottom;
+    height: 100vh;
+        position: absolute;
+}
+.lg_img2{
     background-image: url(../img2/lg_img3.jpg);
 
     z-index: -1;
