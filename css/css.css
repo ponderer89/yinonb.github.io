@@ -8,15 +8,16 @@
 }
 
 @font-face {
-	font-family: 'almoni';
-	src:url('../fonts/almoni.ttf');
+	font-family: 'narkisblock';
+	src:url('../fonts/narkisblock.otf');
 }
 body{
 	    direction: rtl;
-	    font-family: almoni;
+	    font-family: narkisblock;
 	    color:black;
 	        overflow-x: hidden;
 	        background-color: #f8f8f8;
+            transition:0.5s;
 
 }
 
@@ -47,27 +48,27 @@ body::-webkit-scrollbar-button {
 
 }
 h1{
-	font-size: 50px;
-	font-family: 'karavan';
-	    line-height: 0.8;
+font-size: 50px;
+    font-family: 'karavan';
+    line-height: 0.8;
 }
 
 h2{
 	font-family: barlev;
-	    width: 330px;
+	    width: auto;
 }
 
 h3{
-	FONT-SIZE:17PX;
-	font-family: almoni;
-	margin-top:40px;
-	margin-bottom: 20px;
-	font-weight:700;
+    FONT-SIZE: 29PX;
+    font-family: barlev;
+    margin-top: 80px;
+    margin-bottom: 50px;
+    text-decoration: underline;
 }
 
 h4{
 	margin: 10px 0px 4px 0px;
-    font-family: almoni;
+    font-family: narkisblock;
 }
 .lg_img_css{
 
@@ -78,38 +79,40 @@ h4{
     background-size: cover;
         background-position: center;
     margin-right: auto;
-	transition: 0.5s;
+	
 
 }
 
 
 .lg_img_scroll{
-	height:100px;
-	transition: 0.5s;
+    height: 100px;
+    transition: 1.5s;
+    transition-timing-function: ease-out;
+	
 }
 .lg_img_css{
 	overflow: hidden;
 
 }
 .lg_img1{
-    background-image: url(../img/lg_img3.jpg);
+    background-image: url(../img/lg_img.jpg);
 
     z-index: -1;
     top: 0px;
     width: 100vw;
     background-size: 100vw auto;
-    background-position: bottom;
+    background-position: center;
     height: 100vh;
         position: absolute;
 }
 .lg_img2{
-    background-image: url(../img2/lg_img3.jpg);
+    background-image: url(../img2/lg_img.jpg);
 
     z-index: -1;
     top: 0px;
     width: 100vw;
     background-size: 100vw auto;
-    background-position: bottom;
+    background-position: center;
     height: 100vh;
         position: absolute;
 }
@@ -131,36 +134,81 @@ h4{
 .navbar-default{
     background-color: transparent;
     border-color: transparent;
-            transition: 0.5s;
-    -webkit-transition:  0.5s;
+            
+   
     	      height: 72px;
 
 
 }
 .nav_scroll {
-    background-color:black;
-    border-color: #080808;
-        transition: 0.5s;
-    -webkit-transition:  0.5s;
-        height: 55px;
-     box-shadow: 0px -530px 0px 530px black;
+    background-color: white;
+    
+    height: 55px;
+    box-shadow: 0px -571px 14px 565px black;
+        transition:none;
+}
+
+.navarea{
+
+}
+
+.navarea_scroll{
+    box-shadow: 0px -530px 0px 530px white;
+    height: 55px;
+        transition:none;
+
 }
 
 
 .navbar-collapse .navbar-nav > li > a{
     color: #000;
-            transition: 0.5s;
-    -webkit-transition:  0.5s;
+            
+   
     opacity:0;
 }
 .a_scroll  .navbar-nav > li > a {
-    color: #fff;
+    color: #000;
 opacity:1;
-            transition: 0.5s;
-    -webkit-transition:  0.5s;
+            
+   
 
 
 
+}
+
+.dropdown-toggle {
+    color: #000;
+            
+   
+    opacity:0;
+}
+.dropdown_scroll{
+    color: #000;
+opacity:1;
+    margin-top: 5px;
+     padding-top: 5px;
+border-radius:0px!important;
+    border:none!important;
+            
+
+}
+
+.dropdown-menu{
+    margin-left:-15px!important;
+        right: 0!important;
+       border-radius:0px!important; 
+       border:none!important;
+           min-width: 90px!important;
+
+        
+}
+
+.dropdown-menu > li > a{
+      padding: 10px 26px!important; 
+       float: right!important;
+}
+.dropdown-menu > li {
+       float: right!important;
 }
 .navbar-brand{
     font-size: 18px;
@@ -178,6 +226,9 @@ width:57px;
     margin-top:0px;
     
     border:1px;
+        transition:none;
+        background:none;
+        height:55px;
 }
 
 .top_plane{
@@ -185,12 +236,12 @@ transform: skewx(-45deg);
     top: -150px;
     position: relative;
     width: 150px;
-    left: 210px;
+    left: 225px;
     height: 150px;
     overflow: hidden;
     border-bottom: none;
                 transition: none!important;
-                	    transition: 0.8s;
+                	     transition:none;
 
 }
 .right_plane{
@@ -198,16 +249,16 @@ transform: skewx(-45deg);
     top: -104px;
     position: relative;
     width: 200px;
-    left: 470px;
+    left: 500px;
     height: 150px;
     overflow: hidden;
     border-left: none;
       transition: none!important;
-      	    transition: 0.8s;
+      	        transition:none;
 }
 .right_plane.brand_scroll{
 	display: none;
-	    transition: 0.8s;
+	     transition:none;
 }
 
 .nav_scroll.navbar-brand.fixed-theme,
@@ -215,8 +266,7 @@ transform: skewx(-45deg);
 .navbar.navbar-fixed-top.fixed-theme,
 .navbar-brand,
 .navbar-container a{
-    transition: 0.8s;
-    -webkit-transition:  0.8s;
+    transition:none;
 }
 
 
@@ -231,8 +281,7 @@ transform: skewx(-45deg);
     color: WHITE;
     background-color: black;
     float: right;
-    display: inline-block;
-box-shadow: 0px 0px 0px 5px white;
+    box-shadow: 0px 0px 0px 5px white;
     padding: 20px;
 
 }
@@ -245,35 +294,37 @@ margin-top: 0px;
     background-color: transparent;
     box-shadow: none;
     margin-right: 70px;
-                transition: 0.5s;
-    -webkit-transition:  0.5s;
+    color:black;
+                
+   
 }
 
 
 .sub_title_scroll{
 	display:none;
-	            transition: 0.5s;
-    -webkit-transition:  0.5s;
+	            
+   
 }
 
 
 .h1_scroll{
 	font-size: 20px;
-	            transition: 0.5s;
-    -webkit-transition:  0.5s;
+	            
+   
     font-family: 'barlev';
 }
 
 .h1_title{
-	    width: 130px;
-	        padding-bottom: 20px;
+    padding-bottom: 20px;
     border-bottom: solid white 5px;
+    display: table-caption;
 }
 
 .h1_title_div{
 	    width: 100%;
     padding-bottom: 0px;
     border-bottom: none;
+        display: initial;
 
 }
 
@@ -287,6 +338,8 @@ margin-top: 0px;
 .article_main{
 
 background-color: white;
+box-shadow: 0px 0px 9px -6px grey;
+    overflow: hidden;
 
 }
 .article_toprow{
@@ -295,36 +348,99 @@ background-color: white;
     font-size: 20px;
     line-height: 0.8;
     margin-bottom: 50px;
-    margin-top: 50px;
+
+}
+.firstp{
+    font-weight: 600;
+    font-size: 17px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 600px;
+    line-height: 21px;
+
+}
+.actualfirstp{
+display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 300px;
+    padding-right: 0px;
+
 }
 
-.article_content{
-	font-size: 17px;
-	    background-color: white;
-	        padding-top: 150px;
+.topquote{
+        font-size: 40px;
+    line-height: 8px;
+        font-family: karavan;
 }
+.bottomquote{
+    font-size: 40px;
+    line-height: 27px;
+    text-align: left;
+    padding-left: 15px;
+        font-family: karavan;
+}
+.flag{
+    background-image: url(../img2/map.png);
+    height: 340px;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    padding-left: 0px;
+
+
+}
+.flag2{
+    background-image: url(../img2/refugee.jpg);
+    height: 340px;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    padding-left: 0px;
+
+
+}
+.article_content{
+
+	    background-color: white;
+	        padding-top: 100px;
+                padding-bottom: 100px;
+
+
+}
+
 
 
 .text{
 	position: relative;
-	padding-bottom: 100px;
-    border-bottom: black solid 5px;
-        width: 720px;
+
+        width: 600px;
     margin-right: auto;
     margin-left: auto;
+        font-size: 17px;
 }
 
 
 .articleimg{
-	width:100%;
+    width: 104%;
+    overflow: hidden;
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+.imgcap{
+    font-size: 13px;
+    color: #a1a1a1;
 }
 
 
 .comments{
-width: 720px;
+width: 600px;
     margin-right: auto;
     margin-left: auto;
         height: 350px;
+            border-top: 2px solid black;
+            padding-top:50px;
 }
 .photo{
     width: 100px;
@@ -399,3 +515,27 @@ width: 720px;
     margin-top: -113px;
 }
 
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+    color: #333;
+    background-color: transparent;
+text-decoration: underline;
+}
+.this {
+
+    background-color: transparent;
+text-decoration: underline;
+}
+.navbar-nav {
+    float: left;
+    margin: 0;
+    margin-left: 15px;
+}
+.quoteattr{
+        font-size: 13px;
+    color: gray;
+    font-weight: 300;
+}
+
+.quotebody{
+        text-indent: 65px;
+}
