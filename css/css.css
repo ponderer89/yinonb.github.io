@@ -70,6 +70,11 @@ h4{
 	margin: 10px 0px 4px 0px;
     font-family: narkisblock;
 }
+
+h5{
+        font-size: 30px;
+    font-family: barlev;
+}
 .lg_img_css{
 
 
@@ -405,7 +410,6 @@ display: flex;
 
 	    background-color: white;
 	        padding-top: 100px;
-                padding-bottom: 100px;
 
 
 }
@@ -444,7 +448,7 @@ width: 600px;
             padding-top:50px;
 }
 .comment_top{
-        border-top: 3px solid black;
+        border-top: 5px solid black;
 }
 .photo{
     width: 100px;
@@ -490,7 +494,7 @@ width: 600px;
 
 .new_comment{
 	height: 100px;
-    border-top: 3px solid black;
+    border-top: 5px solid black;
     float: left;
     width: 600px;
 
@@ -558,3 +562,4 @@ text-decoration: underline;
 .comment_text{
         margin-top: 5px;
 }
+
