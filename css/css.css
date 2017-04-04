@@ -14,7 +14,7 @@
 body{
 	    direction: rtl;
 	    font-family: narkisblock;
-	    color:black;
+	    color:#333;
 	        overflow-x: hidden;
 	        background-color: #f8f8f8;
             transition:0.5s;
