@@ -60,12 +60,11 @@ h2{
 }
 
 h3{
-    FONT-SIZE: 29PX;
+    FONT-SIZE: 25PX;
     font-family: barlev;
     margin-top: 50px;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
     text-decoration: underline;
-            color:black;
 
 }
 
@@ -591,3 +590,8 @@ text-decoration: underline;
  .h1skew{
     border-color: transparent;
 }
+
+
+
+
+
