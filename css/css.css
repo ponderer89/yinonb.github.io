@@ -101,7 +101,7 @@ h5{
 
 }
 .lg_img1{
-    background-image: url(../img/lg_img.jpg);
+    background-image: url(../img2/lg_img.jpg);
 
     z-index: -1;
     top: 0px;
@@ -112,7 +112,7 @@ h5{
         position: absolute;
 }
 .lg_img2{
-    background-image: url(../img2/lg_img.jpg);
+    background-image: url(../img/lg_img.jpg);
 
     z-index: -1;
     top: 0px;
@@ -282,7 +282,7 @@ transform: skewx(-45deg);
 
 
 .article_title{
-    margin-top: 50vh;
+    margin-top: 45vh;
     text-align: right;
     color: WHITE;
     background-color: black;
@@ -563,3 +563,27 @@ text-decoration: underline;
         margin-top: 5px;
 }
 
+
+
+.articleskew-x{
+    z-index: -1;
+    position: relative;
+    transform: skewX(45deg);
+    right: -406px;
+    top: 321px;
+    border-top-left-radius: 3px;
+    color: transparent;
+}
+.articleskew-y{
+    z-index: -1;
+    position: relative;
+    transform: skewY(45deg);
+    right: -748px;
+    top: 132px;
+    border-top-left-radius: 3px;
+        color: transparent;
+}
+
+ .h1skew{
+    border-color: transparent;
+}
