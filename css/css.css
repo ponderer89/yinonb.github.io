@@ -101,7 +101,7 @@ h5{
 
 }
 .lg_img1{
-    background-image: url(../img2/lg_img.jpg);
+    background-image: url(../img/lg_img.jpg);
 
     z-index: -1;
     top: 0px;
@@ -112,7 +112,7 @@ h5{
         position: absolute;
 }
 .lg_img2{
-    background-image: url(../img/lg_img.jpg);
+    background-image: url(../img2/lg_img.jpg);
 
     z-index: -1;
     top: 0px;
